@@ -648,6 +648,9 @@ button {
     border-radius: 50%;
     background-color: transparent;
 }
+.slider.hide {
+    display: none;
+}
 .slider:hover,
 .slider:focus {
     transform: translate(-50%, 0) scale(1.7);

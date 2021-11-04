@@ -101,6 +101,9 @@ const ideal = document.querySelector(".ideal");
 PricingData.forEach((data, index) => {
     const button = document.createElement("button");
     button.className = "slider";
+    if (window.innerWidth > 700) {
+        button.classList.add("hide");
+    }
     button.id = index + 1;
     ideal.append(button);
 });
